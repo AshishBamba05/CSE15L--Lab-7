@@ -24,3 +24,7 @@ This project implements two basic Java functions—`filter()` and `merge()`—to
 ### 1. Compile the code
 ```bash
 javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
+```
+### 2. Run JUnit tests
+java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests
+
